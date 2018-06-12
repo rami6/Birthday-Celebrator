@@ -33,7 +33,7 @@ var messageTxt = "";
 
 function search_birthday() {
   for (var i = 0; i < birthdays.length; i++){
-    if (birthdays[i][0] == month && birthdays[i][1] == date + 1) {
+    if (birthdays[i][0] == month && birthdays[i][1] == date) {
       var randNumM = Math.floor(Math.random() * messages.length);
       var randNumE1 = Math.floor(Math.random() * emojis_b.length);
       var randNumE2 = Math.floor(Math.random() * emojis_o.length);
