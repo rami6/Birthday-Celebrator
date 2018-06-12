@@ -66,3 +66,13 @@ function push_message() {
   };
   var response = UrlFetchApp.fetch(url, options);
 }
+
+// Use this function for only getting groupID.
+// Once you get the groupID, delete or comment out this function.
+function doPost(e){
+  var json = JSON.parse(e.postData.contents);
+  var GID = json.events[0].source.groupId;
+  
+  messageTxt = GID
+  push_message()
+}
