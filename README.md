@@ -1,6 +1,14 @@
 # BirthdayCelebrator
-### How it works
-This code is for LINE chat app. 
+Even if you love your friends in a chat group, some times you forget their birthday. So as the other members. Then, it's time to make a bot which certainly celebrate all member's birthday!<br/>
+This code is for LINE chat app. But, you can use some parts of this code for the other chat apps' bot services. 
+
+### Preparation
+Create your LINE Channel in this page: https://developers.line.me/en/ <br/>
+Note:
+- Plan -> Developer Trial
+- Use Webhooks -> enabled
+
+### How it works 
 1. Copy this code and paste on your Google Apps Script project
 2. Customize birthday info, message options, etc.
 3. Go to LINE Developer console and check your channel's access token(if it's not exist or expired, issue new one). Assign it to `CHANNEL_ACCESS_TOKEN`
