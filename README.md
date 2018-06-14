@@ -3,10 +3,12 @@ Even if you love your friends in a chat group, some times you forget their birth
 This code is for LINE chat app. But, you can use some parts of this code for the other chat apps' bot services. 
 
 ### Preparation
-Create your LINE Channel in this page: https://developers.line.me/en/ <br/>
+Create a new LINE Channel: https://developers.line.me/en/ <br/>
 Note:
 - Plan -> Developer Trial
 - Use Webhooks -> enabled
+
+Create a new Google Apps Script project: https://developers.google.com/apps-script/
 
 ### How it works 
 1. Copy this code and paste on your Google Apps Script project
