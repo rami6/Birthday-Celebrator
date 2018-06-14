@@ -1,5 +1,5 @@
 # BirthdayCelebrator
-Even if you love your friends in a chat group, some times you forget their birthday. So as the other members. Then, it's time to make a bot which certainly celebrate all member's birthday!<br/>
+Even if you love your friends in a chat group, some times you forget their birthday. So as the other members. Then, it's time to make a bot which certainly celebrate every member's birthday!<br/>
 This code is for LINE chat app. But, you can use some parts of this code for the other chat apps' bot services. 
 
 ### Preparation
